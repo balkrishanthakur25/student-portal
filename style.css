@@ -131,24 +131,26 @@ a{
 }
 img:hover{
    gap: 20px;
-   background-color: rgb(236, 238, 238);
+   /* background-color: rgb(62, 66, 66); */
    width: fit-content;
    border-radius: 50px;
    box-sizing: border-box;
-   box-shadow: 0 0 10px rgba(16, 19, 14, 0.973);
+    
    transition: all 0.3s ease-in-out;
 }
 .home-icon .icon img{
    width: 60px;
    height: 60px;
    border-radius: 50%;  
+   background-color: rgb(196, 136, 193);
+   box-shadow: 0 0 10px rgba(246, 248, 244, 0.973);
 }
 
 
 
 
 body {
-  background: linear-gradient(to bottom, #2c003e, #1a001f);
+  background: linear-gradient(to bottom, #630588, #03043a);
   font-family: Arial, sans-serif;
   color: white;
   display: flex;
@@ -230,10 +232,11 @@ body {
 
 
 .hero {
-  background: linear-gradient(to right, #004aad, #007bff);
-  color: white;
+  background: linear-gradient(to right, #791aa5, #370957);
+  color: rgb(27, 4, 38);
   text-align: center;
-  padding: 100px 20px;
+  padding: 110px 200px;
+  border-radius: 10px;
 }
 
 .hero h1 {
@@ -248,46 +251,30 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: #ffdd57;
-  color: #333;
+  background-color: #3b054d;
+  color: #f1eded;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
-  transition: background 0.3s;
+    transition: background 0.8s;
+    box-shadow: 0 0 10px rgba(16, 19, 14, 0.973);
+
+
 }
 
 .btn:hover {
-  background-color: #ffc107;
+   transition: all 0.3s ease-in-out;
+  background-color: #2a0c2a;
 }
 
-/* About Section */
-.about {
-  padding: 60px 20px;
-  text-align: center;
-  background-color: #ffffff;
-}
 
-.about h2 {
-  font-size: 2em;
-  margin-bottom: 15px;
-  color: #004aad;
-}
-
-.about p {
-  max-width: 700px;
-  margin: auto;
-  font-size: 1.1em;
-  color: #555;
-}
-
-/* Footer */
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #004aad;
+  width: 1000px;
   color: white;
-  margin-top: 30px;
+  margin-top: 630px;
 }
 
 
@@ -303,11 +290,6 @@ footer {
       margin-top: 30px;
   }
 }
-
-
-
-
-
 
 
 
