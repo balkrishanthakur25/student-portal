@@ -4,39 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Document</title>
 </head>
 
 <body>
     <div>
         <nav class="navbar">
-            <a href="#" class="logo">portfolio.</a>
+            <h1 class="logo">My Profile</h1>
+
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Profile.html">Profile</a></li>
-                 <li><a href="Courses.html">courses</a></li>
-                <li><a href="Grades.html">Grades</a></li>
-                <li><a href="Feedback.html">Feedback</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="index.html">Home🏠</a></li>
+                <li><a href="Profile.html">Profile👤</a></li>
+                <li><a href="Courses.html">courses📘</a></li>
+                <li><a href="Grades.html">Grades🎓</a></li>
+                <li><a href="Feedback.html" class="active">Feedback💬</a></li>
+                <li><a href="Contact.html">Contact☎️</a></li>
             </ul>
         </nav>
-
     
-<section class="contact-section">
-  <h1>FEEDBACK</h1>
-  
-  <form class="contact-form">
-    <input type="text" name="name" placeholder="Name"><br><br>
-    <input type="email" name="email" placeholder="Enter your email"><br><br>
-    <textarea name="message" placeholder="Enter message"></textarea><br><br>
-    <button type="submit">Send Message</button>
-  </form>
+    <div class="diva-contact-wrapper">
+         <h1>Feedback💬</h1>
+     <div class="line"></div>
+         <h2>Send Us a Message</h2>
 
-</section>
+    <form class="cool">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Your Phone Number" required>
+        <textarea placeholder="Write your message..." required></textarea>
+        <button type="submit">Send Message</button>
     </form>
-</section>
-    </div>
+
+    <p class="footer">© 2025 MyWebsite. All Rights Reserved.</p>
+
+</div>
 
 </body>
 </html>
